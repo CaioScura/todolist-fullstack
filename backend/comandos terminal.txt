@@ -1,0 +1,73 @@
+npm init -y
+ === gerar arquivo package json com algumas informações padrões
+
+
+npm install express
+ === 
+
+
+npm install mysql2
+ ===
+
+
+npm install nodemon -D
+ === D: dependencias de desenvolvimento
+
+
+npm install dotenv
+ === 
+
+
+npx eslint --init
+ === codigo mais limpo, seguir um padrao de codigo
+ === y
+ === 3 opção: To check syntax, find problems, and enforce code style
+ === commonJS
+ === nenhum
+ === no typescript
+ === desmarcar browser, e marcar node
+ === 2 opção: Answer questions about your style
+	- JSON
+	- spaces
+	- single
+	- unix
+	- yes
+ === y
+ === npm
+
+
+node src/index.js
+  === depois de dentro da pasta backend, executar o index.js
+
+
+npm start -> localhost:3333
+ === depois de acrescentar no package.json "start"
+ === starta o server para visualização
+
+npm run dev
+ === "dev": "nodemon src/index.js" -> qualquer mudança no codigo ira atualizar automaticamente sem precisar parar o servidor
+
+entrar na pasta backend
+npm run dev
+ === server ira rodar na porta escolhida
+
+USAR DOCKER utilizar MYSQL
+docker run --name mysql -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -d mysql
+ ===
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
